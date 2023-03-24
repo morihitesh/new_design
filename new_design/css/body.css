@@ -4,6 +4,14 @@
 
     height: 500px;
 }
+.t-d-none 
+{
+text-decoration: none;
+}
+.p-color
+{
+    color: #7a7a7a;
+}
 
 .call-to-action .container {
     width: 100%;
@@ -85,28 +93,31 @@
 }
 .down-content  h4
 {
-font-size: 20px;
-letter-spacing: 0.25px;
-text-transform: capitalize;
+font-size: 18px;
+letter-spacing: 0.5px;
 font-weight: 900;
 color: black;
 margin: 10px 0px 12px 0px;
 }
+.down-content .li-line li:after
+{
+    content: '|';
+    color: #aaa;
+    margin-left: 8px;
+}
+
 .down-content ul li
 {
     list-style: none;
     display: inline-block;
     
 }
-.post-info a
+.down-content ul li a
 {
     font-size: 14px;
     color: #aaa;
-    font-weight: 400;
-    transition: all .3s;
     text-decoration: none;
-    border-right: 1px solid #aaa;
-    padding: 10px;
+
     
 }
 .post-info li a:hover
@@ -120,6 +131,8 @@ margin: 10px 0px 12px 0px;
     border-bottom: 1px solid #eee;
     padding: 25px 0px;
     margin: 25px 0px;
+    font-size: 15px;
+    line-height: 30px;
 }
 .post-options .post-tags  a
 {

@@ -3,6 +3,10 @@
     height: 60px;
     width: 99px;
 }
+.text-orange
+{
+    color: #f48840 !important;
+}
 .bg-orange
 {
     background-color: #f48840 !important;
@@ -12,9 +16,19 @@
     color: white;
 }
 
+.pl-0
+{
+    padding-left: 0!important;
+}
 .f-right
 {
     float: right;
+}
+
+a:hover
+{
+    color: #f48840 !important;
+     
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
