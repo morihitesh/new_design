@@ -1,0 +1,161 @@
+/* 2-part-css */
+.call-to-action {
+    margin: 100px;
+}
+
+.call-to-action .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.call-to-action .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 15px;
+}
+
+.call-to-action .main-content {
+    background-image: url("../images/post-1.jpg");
+    padding: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-to-action .main-content span {
+    color: #f48840;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+.call-to-action .main-content h4 {
+    margin-bottom: 0px;
+    margin-top: 12px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 0.25px;
+}
+
+
+.call-to-action .main-content .main-button {
+    text-align: right;
+    margin-top: 12px;
+}
+
+.main-button a {
+    display: inline-block;
+    background-color: #f48840;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+/* 2-part-complete */
+/* 3-part-css */
+
+.blog-thumb img
+{
+    width: 100%;
+    
+}
+.down-content
+{
+    padding: 40px;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.down-content span
+{
+    color: #f48840;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.down-content  h4
+{
+font-size: 20px;
+letter-spacing: 0.25px;
+text-transform: capitalize;
+font-weight: 900;
+color: black;
+margin: 10px 0px 12px 0px;
+}
+.down-content ul li
+{
+    list-style: none;
+    display: inline-block;
+    
+}
+.post-info a
+{
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 400;
+    transition: all .3s;
+    text-decoration: none;
+    border-right: 1px solid #aaa;
+    padding: 10px;
+    
+}
+.post-info li a:hover
+{
+    color: #f48840;
+    
+}
+.down-content p
+{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 25px 0px;
+    margin: 25px 0px;
+}
+.post-options .post-tags  a
+{
+    text-decoration: none;
+    color: #aaa;
+    
+
+}
+.post-options .post-tags  a:hover
+{
+    
+    color: #f48840;
+}
+.post-share a 
+{
+    text-decoration: none;
+    color: #aaa;
+}
+.post-share a:hover
+{
+    color: #f48840;  
+}
+.post-tags li i
+{
+    margin-right: 5px;
+    color: #f48840;
+}
+.post-share li i
+
+{
+    margin-right: 5px;
+    color: #f48840;
+}
+.main-button a
+{
+    height: 60px;
+    line-height: 60px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
