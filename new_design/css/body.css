@@ -1,6 +1,8 @@
 /* 2-part-css */
-.call-to-action {
-    margin: 100px;
+.carousel-item img
+{
+
+    height: 500px;
 }
 
 .call-to-action .container {

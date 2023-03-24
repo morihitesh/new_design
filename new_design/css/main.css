@@ -3,7 +3,19 @@
     height: 60px;
     width: 99px;
 }
+.bg-orange
+{
+    background-color: #f48840 !important;
+}
+.text-white
+{
+    color: white;
+}
 
+.f-right
+{
+    float: right;
+}
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
     color: #f48840;
