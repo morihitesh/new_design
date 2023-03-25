@@ -174,3 +174,36 @@ margin: 10px 0px 12px 0px;
     width: 100%;
     text-align: center;
 }
+.padding-40-right
+{
+    padding-right: 40px;
+}
+.list-padding-none
+{
+    list-style: none;
+    padding-left: 0;
+}
+ .list-padding-none li a
+{
+    text-decoration: none;
+  
+}
+.sidebar .recent-posts ul li h5:hover
+{
+    color: #f48840;
+}
+.tags li:hover {
+    background-color: #f48840 !important;
+    color: #fff !important;
+}
+.tags li:hover a {
+    color: #fff !important;
+}
+.tags li a:hover {
+    color: #fff !important;
+}
+
+.main-button a:hover {
+    color: #fff !important;
+    background-color: #fb9857 !important;
+}
