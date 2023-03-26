@@ -2,6 +2,10 @@
 {
     background-image: url("images/post-1.jpg");
 }
+.text
+{
+    padding: 45px;
+}
 .text h2
 {
     color: white;
@@ -9,4 +13,70 @@
 .text h4
 {
     color: #f48840;
+}
+.col-lg-12 img
+{
+    width: 100%;
+}
+.col-lg-12 p
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7a7a7a;
+    line-height: 30px;
+}
+.center
+{
+    text-align: center;
+}
+p
+{
+    color: #7a7a7a;
+    font-size: 15px;
+}
+hr
+{
+    color: #7a7a7a;
+}
+ul li 
+{
+    list-style: none;
+}
+.bc-black li a
+{
+    
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.social
+{
+text-align: center;
+}
+ul li
+{
+    display: inline-block;
+    
+    
+}
+.bc-black li
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    background-color: #212931;
+    border-radius: 50%;
+    transition: all .3s
+}
+.bc-black li:hover
+{
+    background-color: #f48840 !important;
+   
+}
+.social li:hover a
+{
+    color: white !important;
 }
